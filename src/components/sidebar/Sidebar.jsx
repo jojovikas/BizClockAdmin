@@ -7,7 +7,7 @@ import {
   FaCog,
   FaUsers,
   FaQuestionCircle,
-} from "react-icons/fa"; // Import React Icons
+} from "react-icons/fa";
 import "./sidebar.css";
 import CardDetals from "../cardDetails/CardDetals";
 import LineChart from "../LineGraph/LineChart";
@@ -21,7 +21,7 @@ const Sidebar = () => {
   const [isSidebarActive, setIsSidebarActive] = useState(true);
   const [isContainerActive, setIsContainerActive] = useState(true);
 
-  // Toggle sidebar visibility
+  // handle toggle sidebar function
   const toggleSidebar = () => {
     setIsSidebarActive(!isSidebarActive);
     setIsContainerActive(!isContainerActive);
