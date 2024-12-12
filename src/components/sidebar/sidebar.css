@@ -1,0 +1,112 @@
+.side-navbar {
+  width: 220px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #ffffff;
+  transition: 0.5s;
+}
+.side-navbar .nav {
+  line-height: 32px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.nav .nav-link .bx {
+  padding: 5px;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: black !important;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black !important;
+  cursor: pointer;
+}
+
+.logo_bizclock {
+  font-size: 20px;
+}
+
+.side-navbar .icon {
+  background-color: #fff;
+  box-shadow: rgba(250, 86, 182, 0.8) 0px 5px 15px;
+  padding: 5px;
+  border-radius: 4px;
+}
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+.nav .nav-link.active {
+  background-color: #f4eeee;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.nav .nav-link.active .bx {
+  background-color: #fff;
+  box-shadow: rgba(250, 86, 182, 0.8) 0px 5px 15px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 220px;
+}
+
+#menu-btn {
+  margin-left: -50px;
+  font-size: 18px;
+}
+.bx {
+  margin-right: 10px;
+}
+form {
+  background-color: #ced4da;
+  border-radius: 8px;
+}
+.my-container input.form-control {
+  border-radius: 0;
+  border-right: 0;
+  background-color: transparent;
+  border: 0;
+}
+.my-container .btn {
+  border-radius: 0;
+  border-left: 0;
+  border: 0;
+}
+
+.Notification a img {
+  height: 28px;
+  width: 28px;
+}
+.profile img {
+  height: 44px;
+  width: 44px;
+}
+.personName p {
+  font-size: 14px;
+}
+
+@media (max-width: 882px) {
+  .Notification,
+  .person,
+  .personName,
+  .profile {
+    display: none !important;
+  }
+}

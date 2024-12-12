@@ -1,0 +1,53 @@
+.collectiond_stats-overview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.collectiond_stat-card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 10px 15px;
+  width: 195px;
+  background-color: #fff;
+}
+
+.collectiond_stat-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 24px;
+}
+
+.collectiond_stat-content {
+  display: flex;
+  gap: 15px;
+}
+
+.collectiond_stat-content p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0px;
+}
+
+.collection_inner {
+  width: 200px;
+  display: inline;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.collection_inner.years {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.collection_inner.views {
+  background-color: #dab5d4b2;
+}

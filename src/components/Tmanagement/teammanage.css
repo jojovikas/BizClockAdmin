@@ -1,0 +1,49 @@
+/* .teammanage_stats-overview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+} */
+
+.teammanage_stat-card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 10px 15px;
+  width: 175px;
+  background-color: #fff;
+}
+
+.teammanage_inner {
+  background-color: #dab5d4b2;
+  width: 200px;
+  display: inline;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.teammanage_stat-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 24px;
+}
+
+.teammanage_stat-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teammanage_stat-content p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0px;
+}
+
+.teammanage_stats-overview .icon {
+  margin: auto 0px;
+  font-size: 20px;
+}

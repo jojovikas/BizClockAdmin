@@ -1,0 +1,10 @@
+.chart-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.linechart_main {
+  margin-top: 42px;
+}
