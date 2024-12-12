@@ -12,7 +12,6 @@ import {
 } from "chart.js";
 import { Line } from "react-chartjs-2";
 
-// Register the required Chart.js components
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -24,7 +23,6 @@ ChartJS.register(
 );
 
 const LineChart = () => {
-  // Chart data
   const data = {
     labels: ["January", "February", "March", "April", "May", "June", "July"],
     datasets: [
@@ -45,9 +43,9 @@ const LineChart = () => {
     ],
   };
 
-  // Chart options
   const options = {
     responsive: true,
+    maintainAspectRatio: false, // Allows for dynamic resizing
     plugins: {
       legend: {
         position: "top",
@@ -68,7 +66,7 @@ const LineChart = () => {
         display: true,
         position: "right",
         grid: {
-          drawOnChartArea: false, // Only draw grid on one side
+          drawOnChartArea: false,
         },
       },
     },
@@ -79,12 +77,10 @@ const LineChart = () => {
       <section className="linechart_main">
         <div className="container">
           <div className="row">
-            <div className="col-12 ">
-              <Line
-                options={options}
-                data={data}
-                style={{ height: "100%", width: "100%" }}
-              />
+            <div className="col-12">
+              <div className="chart-container" style={{ height: "300px" }}>
+                <Line options={options} data={data} />
+              </div>
             </div>
           </div>
         </div>
