@@ -18,8 +18,8 @@ import notifImg from "../../assets/notification.png";
 import profileImg from "../../assets/profile.png";
 
 const Sidebar = () => {
-  const [isSidebarActive, setIsSidebarActive] = useState(true);
-  const [isContainerActive, setIsContainerActive] = useState(true);
+  const [isSidebarActive, setIsSidebarActive] = useState(false);
+  const [isContainerActive, setIsContainerActive] = useState(false);
 
   // handle toggle sidebar function
   const toggleSidebar = () => {
