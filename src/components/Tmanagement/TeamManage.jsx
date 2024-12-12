@@ -54,7 +54,7 @@ const TeamManage = () => {
           {/* Cards */}
           <div className="row teammanage_stats-overview">
             {stats.map((stat, index) => (
-              <div className="col-xl-3 col-md-6 col-sm-6 mb-4 " key={index}>
+              <div className="col-xl-3 col-md-6 mb-4 " key={index}>
                 <div className="teammanage_stat-card">
                   <div className="teammanage_stat-content">
                     <div

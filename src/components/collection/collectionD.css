@@ -51,3 +51,9 @@
 .collection_inner.views {
   background-color: #dab5d4b2;
 }
+
+@media (max-width: 576px) {
+  .collectiond_stat-card {
+    width: 100%;
+  }
+}

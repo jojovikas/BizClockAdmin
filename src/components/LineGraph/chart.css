@@ -8,3 +8,6 @@
 .linechart_main {
   margin-top: 42px;
 }
+
+@media (max-width: 575px) {
+}

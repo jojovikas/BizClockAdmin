@@ -80,7 +80,11 @@ const LineChart = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 ">
-              <Line options={options} data={data} />
+              <Line
+                options={options}
+                data={data}
+                style={{ height: "100%", width: "100%" }}
+              />
             </div>
           </div>
         </div>

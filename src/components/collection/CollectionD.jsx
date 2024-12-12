@@ -47,13 +47,13 @@ const CollectionD = () => {
             </div>
             <div className="col-md-6">
               <div className="row">
-                <div className="col-md-6 text-sm-end">
+                <div className="col-6 text-sm-end">
                   <div className="collection_inner years">
                     Years &nbsp;
                     <IoIosArrowForward />
                   </div>
                 </div>
-                <div className="col-md-6 text-sm-end">
+                <div className="col-6 text-sm-end">
                   <div className="collection_inner views">
                     Views &nbsp;
                     <IoIosArrowForward />
@@ -65,9 +65,9 @@ const CollectionD = () => {
 
           {/* Cards */}
 
-          <div className="collectiond_stats-overview">
+          <div className="collectiond_stats-overview row">
             {stats.map((stat, index) => (
-              <div className="collectiond_stat-card" key={index}>
+              <div className="collectiond_stat-card col-lg-2 mb-4" key={index}>
                 <div className="collectiond_stat-content">
                   <div
                     className="collectiond_stat-icon"
@@ -77,19 +77,7 @@ const CollectionD = () => {
                   </div>
                   <p>{stat.title}</p>
                 </div>
-
                 <p className="text-center my-1">Amt</p>
-
-                {/* <div className="collectiond_stat-content">
-                  <p className="collectiond_stat-value">{stat.value}</p>
-                  <div
-                  className="collectiond_stat-icon"
-                  style={{ backgroundColor: stat.color }}
-                >
-                  {stat.icon}
-                </div>
-                </div>
-                <p className="collectiond_stat-title">{</p> */}
               </div>
             ))}
           </div>
